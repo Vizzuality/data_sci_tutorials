@@ -1,0 +1,10 @@
+version: '2'
+services:
+  develop:
+    build: .
+    container_name: Jupyter_dev
+    command: start-notebook.sh --NotebookApp.token=''
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./work:/home/jovyan/work
