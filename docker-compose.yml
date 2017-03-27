@@ -1,0 +1,10 @@
+version: '2'
+services:
+  develop:
+    image: ecornejo/jupyter:testing
+    container_name: viz-notebook
+    command: start-notebook.sh --NotebookApp.token=''
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./work:/home/jovyan/work
