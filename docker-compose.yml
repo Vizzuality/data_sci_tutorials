@@ -3,6 +3,8 @@ services:
   develop:
     image: ecornejo/jupyter:testing
     container_name: viz-notebook
+    command: conda install --file conda-requirements.txt
+    command: pip install -r requirements.txt
     command: start-notebook.sh --NotebookApp.token=''
     ports:
       - "8888:8888"
