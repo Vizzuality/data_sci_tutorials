@@ -1,5 +1,6 @@
 # Data Science Tutorials
 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Vizzuality/sql2gee/blob/develop/LICENSE)
 
 A series of Jupyter Notebook tutorials, relating to libraries and methods relevant to Vizzuality's Data Science Group.
 
