@@ -1,0 +1,3 @@
+[submodule "Projects/earth-dashboard"]
+	path = Projects/earth-dashboard
+	url = https://github.com/Vizzuality/earth-dashboard-data.git
