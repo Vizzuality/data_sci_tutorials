@@ -3,7 +3,7 @@ cartopy==0.14.2
 rasterstats==0.12.0
 pprintpp
 folium==0.3.0
-requests==2.18.4
+requests==2.31.0
 cartoframes
 iso3166
 togeojsontiles
